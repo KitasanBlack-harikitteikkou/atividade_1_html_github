@@ -1,39 +1,96 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="pt-br">
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Aston Machan desu</title>
+    <title>Aston Machan GOAT</title>
+    <style>
+*{
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  color:crimson;
+  background-color: rgb(41, 6, 6);
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+line-height: 2.5;
+}
+    </style>
+
   </head>
 
-  <body>
-    <!-- TODO 01: HEADER com H1 (título) e P (subtítulo) -->
+  <body id="topo">
+    <div class="container" id="pagina">
+      <header class="box" id="cabecalho">
+        <div class="header-interno">
+          <h1 class="titulo">Konichiwa Aston Machan Desu</h1>
+          <p>
+            Aston Machan e <strong>Muito Legal</strong> e <em>Muito Fofa</em>
+          </p>
+        </div>
+      </header>
 
-    <!-- TODO 02: NAV com uma lista (UL/LI) e 3 links (A) -->
-    <!-- Dica: use href="https://..." ou href="#" -->
-
-    <!-- TODO 03: MAIN com as seções abaixo -->
-
-    <!-- SEÇÃO A: Apresentação -->
-    <!-- Use SECTION, inclua H2 e 2 parágrafos (P).
-         Em algum trecho use STRONG e em outro use EM. -->
-
-    <!-- SEÇÃO B: Lista -->
-    <!-- Use SECTION, inclua H2 e uma lista (UL ou OL) com 4 itens (LI). -->
-
-    <!-- SEÇÃO C: Mídia -->
-    <!-- Use SECTION, inclua H2 e um FIGURE com:
-         - IMG com src="", alt="", width="", height=""
-         - FIGCAPTION descrevendo a imagem
-         Regras: alt não pode ficar vazio; não usar style.
-    -->
-
-    <!-- SEÇÃO D: Tabela -->
-    <!-- Use SECTION, inclua H2 e uma TABLE com:
-         - uma linha de cabeçalho (TR) com TH: Item | Descrição | Prioridade
-         - 3 linhas (TR) com TD (valores livres, coerentes)
-    -->
-
-    <!-- TODO 04: FOOTER com um P e um link (A) para uma fonte usada na pesquisa -->
+      <nav class="box" id="menu">
+        <div class="nav-interno">
+          <ul class="nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#apresentacao">Aston Machan é Fofa!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Fotos">Fotos da Aston Machan!</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Umamusume">Aston Machan no Jogo Umamusume!</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <main id="conteudo">
+        <div class="row" id="linha-1">
+          <section class="box-panel" id="apresentacao">
+            <h2>Quem é a Aston Machan?</h2>
+            <p>
+              <em>Aston Machan</em> na Vida real é um Cavalo que correu ao lado
+              de Vodka e Daiwa Scarlet e Ganhou 5 Corridas
+            </p>
+            <p>
+              A <em>Aston Machan</em> Tambem é um Cavalo No jogo
+              <strong>Umamusume</strong> que a Maioria dos Fans adoram
+            </p>
+          </section>
+        </div>
+        <section class="Box" id="galeria">
+          <h2>Galeria</h2>
+          <div class="gallery" id="Galeria-imagens"></div>
+          <img
+            class="Aston-img"
+            src="Aston_machan.jpg"
+            alt="Aston Machan No Shopping!"
+            width="320"
+            height="320"
+          />
+          <img
+            class="Aston-img"
+            src="Gz5BFHrXMAAcOIv.jpg"
+            alt="Aston Machan sendo uma Fofa com o Plushie dela!"
+            width="420"
+            height="320"
+          />
+          <img
+            class="Aston-img"
+            src="Aston_machan_2.jpg.jpg"
+            alt="Plushie da Aston Machan!"
+            width="420"
+            height="320"
+          />
+        </section>
+      </main>
+      <footer class="box" id="rodape">
+        <p class="texto-rodape">
+          <a class="link" href="#topo">Topo</a>
+        </p>
+        <p class="texto-rodape">Exemplo para treino de HTML e CSS</p>
+      </footer>
+    </div>
   </body>
 </html>
